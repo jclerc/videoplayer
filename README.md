@@ -1,23 +1,43 @@
-# VideoPlayer
+<h1 align="center">
+  <img alt="videoplayer" width="652" src="https://jclerc.github.io/assets/repos/banner/videoplayer.jpg">
+  <br>
+</h1>
 
-### Démonstration
-Voir le résultat: http://jclerc.github.io/VideoPlayer/
+<p align="center">
+  <img alt="made for: fun" src="https://jclerc.github.io/assets/static/badges/made-for/fun.svg">
+  <img alt="language: javascript" src="https://jclerc.github.io/assets/static/badges/language/javascript.svg">
+  <img alt="made in: 2015" src="https://jclerc.github.io/assets/static/badges/made-in/2015.svg">
+  <br>
+  <sub>An improved video player using native JavaScript.</sub>
+</p>
+<br>
 
-### Fonctionnalités
-- JS natif, orienté objet par prototype
-- Ambient light en fonction des couleurs de la vidéo
-- Prévisualisation des miniatures en JS
-- Raccourcis clavier
-- CSS responsive
+## Live demo
 
-### Utilisation
-Créez une instance:
-```
-var player = new VideoPlayer('.player');
-```
-Et si vous n'avez qu'un player sur la même page:
-```
-player.focus();         // Focus le player (pour les raccourcis clavier)
-player.enableAmbient(); // Active l'ambient light en fond
-player.useHash();       // Utilise le #hash pour commencer directement à un endroit précis
+See the project here: [jclerc.github.io/videoplayer](https://jclerc.github.io/videoplayer/)
+
+## Features
+
+- [x] Native JavaScript using prototypes
+- [x] Ambient light depending on main color of video
+- [x] Generate thumbnails for seeking preview
+- [x] Icons using CSS (no svg/img)
+
+## Stack used
+
+- HTML `5` / CSS `3`
+- JavaScript `ES5`
+
+## Getting started
+
+#### Requirements
+
+- None
+
+#### Installation
+
+```sh
+git clone https://github.com/jclerc/videoplayer.git
+cd videoplayer
+open index.html
 ```
